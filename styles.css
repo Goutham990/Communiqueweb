@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #101618;
+  color: #333;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+title{
+  text-size-adjust: 100px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0c2948;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+.logo {
+  position: left;
+  margin-left: 10px;
+
+
+}
+
+.ids{
+  display: inline;
+  color: white;
+  text-decoration: none;
+}
+
+.c1s{
+  display: inline;
+  color: white;
+}
+
+header h1 {
+  margin: 10px 0 30px;
+  text-align: center;
+  font-size: 24px;
+}
+ 
+.navbar{
+  width: 100%;
+  overflow: auto;
+  position: absolute;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  float:inline-end ;
+}
+
+nav ul li a {
+  color: #fff;
+  display: bloc;
+  text-decoration: none;
+  padding: 20px 15px;
+  margin: 10px 0 30px;
+
+}
+
+nav ul li a:hover{
+  color: aquamarine;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.committee {
+  width: 300px;
+  margin: 20px;
+  background-color: #002147;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.committee .box {
+  text-align: center;
+  transform-style: preserve-3d ;
+  perspective: 1000px;
+}
+
+.committee.box:hover{
+  transform: rotate(10deg) scale(1.2);
+} 
+
+h2{
+  color: white;
+}
+
+p{
+  color: white;
+  transform: translateZ(30px);
+}
+
+.committee h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.committee img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.committee p {
+  font-size: 14px;
+}
+
+footer {
+  background-color: #2A3439;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.js-tilt-glare{
+  border-radius: 18px;
+
+}
